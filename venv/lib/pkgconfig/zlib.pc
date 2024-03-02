@@ -1,0 +1,13 @@
+prefix=/Users/piyushtiwari/Desktop/multilanguage/venv
+exec_prefix=/Users/piyushtiwari/Desktop/multilanguage/venv
+libdir=/Users/piyushtiwari/Desktop/multilanguage/venv/lib
+sharedlibdir=/Users/piyushtiwari/Desktop/multilanguage/venv/lib
+includedir=/Users/piyushtiwari/Desktop/multilanguage/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
